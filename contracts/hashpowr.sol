@@ -24,7 +24,7 @@ import "@openzeppelin/contracts/utils/Context.sol";
  * and pauser roles to other accounts.
  */
 
-contract ERC20PresetMinterPauser is Context, AccessControlEnumerable, ERC20Burnable, ERC20Pausable {
+contract hashpowr is Context, AccessControlEnumerable, ERC20Burnable, ERC20Pausable {
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
     bytes32 public constant PAUSER_ROLE = keccak256("PAUSER_ROLE");
 

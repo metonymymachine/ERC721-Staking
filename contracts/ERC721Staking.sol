@@ -16,7 +16,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract ERC721Staking is ERC721Holder, ReentrancyGuard, Ownable, Pausable {
+contract hashPowr_Staking is ERC721Holder, ReentrancyGuard, Ownable, Pausable {
     using SafeERC20 for IERC20;
 
     /* ========== STATE VARIABLES ========== */
